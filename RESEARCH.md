@@ -55,4 +55,13 @@ ___
 * 모든 그래픽 작업이 선형 색 공간(Linear Color Space)에서 이루어지는 방식을 말합니다.
 * 사람의 눈은 베버의 법칙 때문에 밝은 색보다 어두운 색에 훨씬 민감합니다. 베버의 법칙이란 ‘감각기는 약한 자극이 있는 상황에선 자극의 변화가 적어도 자극을 느낄 수 있으나 강한 자극이 있는 상황에선 자극의 변화가 커야 자극을 느낄 수 있는 법칙'입니다. 즉 어두운 환경에선 조금의 빛만 주어져도 감지할 수 있지만, 밝은 환경에선 조금의 빛은 느낄 수가 없다는 것입니다. [https://www.scienceall.com/%EB%B2%A0%EB%B2%84-%ED%8E%98%ED%9D%90%EB%84%88%EC%9D%98-%EB%B2%95%EC%B9%99weber-fechners-law/]
 * !!!!!**모든 이미지 파일들이 감마 보정이 된 채 저장되지는 않습니다. png, gif, jpeg 따위의 이미지 파일들은 감마 보정으로 원래보다 밝게 저장되지만, raw, exr 등과 같은 이미지 파일들은 감마 보정이 없습니다. 따라서 이들을 모니터에서 보면 다소 어둡게 나타나는 것입니다.**
-![리니어감마](https://docs.unity3d.com/uploads/Main/LinearRendering-LightingSphereLinearGamma.png)
+* ![리니어감마](https://docs.unity3d.com/uploads/Main/LinearRendering-LightingSphereLinearGamma.png)
+>ACES
+* ![aces](https://www.oscars.org/sites/oscars/files/styles/hero_image_wide_default/public/aces_main3.png?itok=inY3Kf2j)
+* ACES(Academy Color Encoding System)는 영화 또는 TV 프로덕션의 수명 주기 동안 색상을 관리하기 위한 업계 표준이다.(https://www.oscars.org/science-technology/sci-tech-projects/aces)
+* ACES는 16bit, 32bit, 25stop 이상의 규격을 가지고 있어 현존하는 모든 카메라의 다이내믹 레인지와 컬러 영역을 커버할 수 있다.(http://journal.kobeta.com/%EC%B0%B8%EA%B4%80%EA%B8%B0-aces-%EC%8B%9C%EC%8A%A4%ED%85%9C/)
+* ACES의 이점
+ 1. 표준화된 보기 변환 및 장비 보정 방법을 통해 온셋 모양 관리와 다운스트림 색상 보정 간의 불확실성 제거
+ 2. 포스트 프로덕션 및 마스터링 전반에 걸쳐 사용하기 위해 세트에서 캡처한 전체 범위의 하이라이트, 그림자 및 색상 보존
+ 3. 다른 카메라의 이미지 매칭 단순화
+ 4. 대체 결과물을 생성할 때 소스 자료의 용도를 변경할 수 있는 수단 제공
