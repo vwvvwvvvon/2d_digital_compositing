@@ -65,3 +65,14 @@ ___
  2. 포스트 프로덕션 및 마스터링 전반에 걸쳐 사용하기 위해 세트에서 캡처한 전체 범위의 하이라이트, 그림자 및 색상 보존
  3. 다른 카메라의 이미지 매칭 단순화
  4. 대체 결과물을 생성할 때 소스 자료의 용도를 변경할 수 있는 수단 제공
+> straight & premutiplication
+  * ![straight alpha](https://t1.daumcdn.net/cfile/tistory/9975123B5C0FD14335) 
+  * "non-premultiplied alpha"는 "straight alpha" 또는 "unassociated alpha"라고도 부르며, 우리가 가장 익히, 편하게, 친숙하게 알고 쓰는 알파 형식입니다.
+  * ![premultiplied alpha](https://t1.daumcdn.net/cfile/tistory/99C8A5495C0FD14314)
+  * premultiplied alpha"는 "associated alpha"라고도 부르며, 이미지의 필터링과 혼합에 적합한 표현 방식입니다.
+  * premultiplied alpha 방식의 RGBA 인코딩은, 그 이름이 암시하듯이 알파 값을 RGB에 미리 곱해 둡니다.
+  * RGB에 (불)투명도를 미리 곱해 두면, 알파 값 없이 RGB만 가지고도 투명도가 적용된 색상을 얻을 수 있을 뿐만 아니라, 그래픽 처리시에 필요한 연산이 줄어드는 장점이 있죠.
+  * 다시 말해 premultiplied alpha 방식의 RGBA에서 RGB의 값은 그 자체만으로도 색상과 더불어 이미 투명도를 반영하고 있으며, 알파 값은 복잡한 그래픽 처리를 위해서 덤으로 딸려 들어오는 것에 불과    합니다.
+그리고 이 방식의 또 한 가지 특징은 RGB 각각의 값이 덤으로 얹어 주는 알파의 값보다 항상 작거나 같다는 점입니다.
+## WEEK 04
+>
