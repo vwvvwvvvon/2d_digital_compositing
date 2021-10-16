@@ -75,4 +75,6 @@ ___
   * 다시 말해 premultiplied alpha 방식의 RGBA에서 RGB의 값은 그 자체만으로도 색상과 더불어 이미 투명도를 반영하고 있으며, 알파 값은 복잡한 그래픽 처리를 위해서 덤으로 딸려 들어오는 것에 불과    합니다.
 그리고 이 방식의 또 한 가지 특징은 RGB 각각의 값이 덤으로 얹어 주는 알파의 값보다 항상 작거나 같다는 점입니다.
 ## WEEK 04
->
+> MERGE
+<img width="468" alt="merge" src="https://user-images.githubusercontent.com/90584191/137580425-b088eef8-f044-4bd7-9356-62dc06e4f6b5.png">
+
