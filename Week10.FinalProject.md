@@ -8,6 +8,8 @@
 * 15sec
      * 엘리베이터에서 내리며 우측으로 패닝하며 복도가 보이고 창문으로 우패닝 이후 끝.
      * 엘리베이터를 내리자마자 보이는 종이 교체. 덩쿨이 가득한 복도. 창문 밖에 보이는 망한 조치원.
+![image](https://user-images.githubusercontent.com/90584191/146673349-7aee392f-78f7-4a9d-821d-a270e41bf191.png)
+![final11](https://user-images.githubusercontent.com/90584191/146673389-e0f26553-3c24-43b5-8de2-288b693c3505.JPG)
 
 
 ## 피드백
