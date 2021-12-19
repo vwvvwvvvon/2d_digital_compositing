@@ -1,3 +1,8 @@
+> Softkey, Hard key Week05에 있습니다.
+
+
+
+
 ## Keyer
 
 > clip white와 clip black
