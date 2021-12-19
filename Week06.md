@@ -22,3 +22,8 @@
 ![primatte](https://user-images.githubusercontent.com/90584191/146669966-5a82f9ca-3892-474d-820c-3e660a685cae.JPG)
 ![primatte1](https://user-images.githubusercontent.com/90584191/146669964-8371af87-f19a-49c4-b2d0-3e3d8a9b1bb2.JPG)
 ![primatte2](https://user-images.githubusercontent.com/90584191/146669965-7aa20c20-eef4-4664-8b8c-a7950be01683.JPG)
+
+
+>Garbage matte
+
+* 키 작업 이후에 필요없는 부분은 로토를 통해 빼주던지 더해주던지 한다.
